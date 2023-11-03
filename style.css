@@ -1,0 +1,162 @@
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+.nav-item.dropdown .nav-link::after {
+    color: #dc582a;
+}
+
+.nav-item.dropdown .nav-link:active,
+.nav-item.dropdown .nav-link:focus {
+    color: #dc582a;
+}
+
+.dropdown-menu {
+    border: none;
+    border-radius: 0%;
+}
+
+.dropdown-menu {
+    color: #dc582a;
+    border-top: 2px solid;
+}
+
+#titulo_p {
+    font-weight: 700;
+    color: #dc582a;
+}
+
+.navbar.fixed-top {
+    min-height: 80px;
+
+}
+
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    color: #dc582a !important;
+}
+
+#carouselExampleAutoplaying {
+    margin-top: 70px;
+    border-bottom: #dc582a solid 4px;
+}
+
+@media (min-width: 992px) {
+    #carouselExampleAutoplaying {
+        max-width: 35%;
+        margin: 0 auto;
+    }
+}
+
+.dropdown-menu {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.row {
+    margin-top: 18px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+    text-align: center;
+}
+
+.card h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card h5 {
+    font-weight: 700;
+    color: #dc582a;
+}
+
+.descuento {
+    text-decoration: line-through;
+    opacity: 0.6;
+    color: black;
+}
+
+.dropdown-menu {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 500;
+    color: #dc582a;
+}
+
+.btn {
+    background-color: #ffffff;
+    border: #dc582a solid 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #dc582a;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background-color: #dc582a;
+    border: #dc582a solid 1px;
+}
+
+.btn:active{
+    background-color: #dc582a; !important
+}
+
+.subtitulo {
+    margin-top: 35px;
+}
+
+.subtitulo2 {
+    color: #dc582a;
+    margin-top: 20px;
+}
+
+
+
+.serums_faciales {
+    border-bottom: #dc582a solid 5px;
+}
+
+.desodorantes {
+    border-bottom: #dc582a solid 5px;
+}
+
+.esmaltes {
+    border-bottom: #dc582a solid 5px;
+}
+
+.perfumes_para_hombre {
+    border-bottom: #dc582a solid 5px;
+}
+
+#footer {
+    background-color: #dc582a;
+    color: white;
+}
+
+#enlace {
+    text-decoration: underline;
+    color: white;
+}
